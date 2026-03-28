@@ -1,0 +1,21 @@
+<div class="productContainer">
+    @for (item of product; track $index) {
+    <div class="card">
+        
+  <div class="card-img">
+    <img [src]="item.image" alt="">
+  </div>
+
+  <div class="card-body">
+    <h3 class="card-title">{{item.name}}</h3>
+    <p class="card-price">${{item.price}}</p>
+
+    <div class="card-info">
+      <span class="spicy">{{item.spiciness}}</span>
+      <span class="nuts">{{item.nuts}}</span>
+      <span class="veg">{{item.vegeterian}}</span>
+    </div>
+  </div>
+</div>
+}
+</div>

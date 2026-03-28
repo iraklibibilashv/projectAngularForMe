@@ -1,0 +1,14 @@
+.navigation {
+    background: #efeee5;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 40px;
+}
+.navigation li {
+    list-style: none;
+    color: #353839;
+    cursor: pointer;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
