@@ -120,8 +120,6 @@ export class Main {
         this.showAboutMe = "hideAboutMeContainer"
       }
      }
-
      navContact = "Contact"
      showContact = "hideContact"
-
 }
