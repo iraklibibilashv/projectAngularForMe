@@ -1,9 +1,15 @@
-<div class="work">
-  <h2>My Work</h2>
+<div class="logo">
+       <a href=""> <h1>ANELIN</h1></a>
+</div>
+
+<div class="navigation">
+        <li (click)="onClickAboutMe()">{{navAboutMe}}</li>
+        <li>Contact</li>
+        <li (click)="onClickWork()">{{showWork}}</li>
 </div>
 <div class="productContainer">
     @for (item of product; track $index) {
-    <div class="card">
+    <div [class]="workClass">
         
   <div class="card-img">
     <img [src]="item.image" alt="">
@@ -11,3 +17,18 @@
 </div>
 }
 </div>
+
+
+<div [class]="showAboutMe">
+  <div class="imgContainer">
+    <img src="/images/1.jpg" alt="">
+  </div>
+  <div class="infoContainer">
+  <p>Hello my name is Ana.</p>
+  <p>I'm NAIL ARTIST</p>
+  <p>Here you can see my work</p>
+  <p>How to contact me </p>
+  <p>Information about me</p>
+  </div>
+</div>
+

@@ -1,3 +1,36 @@
+// #region headeRs
+.logo a {
+    text-decoration: none;
+    color: wheat;
+}
+.navigation {
+    background: #efeee5;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.navigation li {
+    list-style: none;
+    color: #353839;
+    cursor: pointer;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    background: #274546;
+}
+.logo h1 {
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: 18px;
+}
+.logo img {
+    width: 250px;
+}
+
 .work {
   background: #274546;
   display: flex;
@@ -9,7 +42,9 @@
   color: wheat;
   letter-spacing: 3px;
 }
+// #endregion headers
 
+// #region workContainer
 
 .productContainer {
     background: #274546;
@@ -20,7 +55,7 @@
     gap: 10px;
 }
 
-.card {
+.showCard {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
@@ -28,6 +63,9 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   cursor: pointer;
+}
+.hideCard {
+  display: none;
 }
 
 .card:hover {
@@ -69,15 +107,36 @@
   border-radius: 8px;
   background: #274546;
 }
-.spicy {
-  font-size: 16px;
-  color: #f0Ead6;
+
+
+// #endregion workContainer
+
+.showAboutMeContainer {
+  display: flex;
+  width: 100%;
+      background: #274546;
 }
-.nuts {
-  font-size: 16px;
-  color: #efeee5;
+.hideAboutMeContainer {
+  display: none;
 }
-.veg {
-  font-size: 16px;
-  color: #efeee5;
+.imgContainer{
+  width: 100%;
+}
+.imgContainer img {
+    width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  flex-wrap: 1;
+}
+.infoContainer {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.infoContainer p {
+  font-size: 26px;
+  color: wheat;
 }
