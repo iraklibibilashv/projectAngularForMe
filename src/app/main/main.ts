@@ -10,49 +10,44 @@ export class Main {
 
   product = [
      {
-    "id": 1,
-    "name": "Laab kai chicken salad",
-    "price": 10,
-    "nuts": true,
+       "id": 1,
     "image": "/images/1.jpg" ,
-    "vegeterian": false,
-    "spiciness": 2,
-    "categoryId": 1,
-    "color" : ["pink", "blue", "green"],
-
   },
   {
     "id": 2,
-    "name": "Som tam papaya salad",
-    "price": 9.5,
-    "nuts": false,
     "image": "/images/2.jpg",
-    "vegeterian": true,
-    "spiciness": 0,
-    "categoryId": 1,
-   "color" : ["red", "blue", "green"]
   },
   {
     "id": 3,
-    "name": "Tom yam kai",
-    "price": 7,
-    "nuts": false,
-    "image": "https://course-jsbasic.javascript.ru/assets/products/tom_yam.png",
-    "vegeterian": false,
-    "spiciness": 3,
-    "categoryId": 2,
-       "color" : ["yellow", "blue", "green"]
+    "image": "/images/3.jpg",
   },
   {
     "id": 4,
-    "name": "Tom kha kai",
-    "price": 7,
-    "nuts": false,
-    "image": "https://course-jsbasic.javascript.ru/assets/products/tom_kha.png",
-    "vegeterian": false,
-    "spiciness": 3,
-    "categoryId": 2,
-       "color" : ["red", "purple", "green"]
-  }
+    "image": "/images/4.jpg",
+  },
+  {
+  "id": 5,
+  "image" : "/images/5.jpg",
+  },
+    {
+  "id": 6,
+  "image" : "/images/6.jpg",
+  },
+    {
+  "id": 7,
+  "image" : "/images/7.webp",
+  },
+    {
+  "id": 8,
+  "image" : "/images/8.jpg",
+  },
+    {
+  "id": 9,
+  "image" : "/images/9.webp",
+  },
+    {
+  "id": 10,
+  "image" : "/images/10.webp",
+  },
   ]
 }
