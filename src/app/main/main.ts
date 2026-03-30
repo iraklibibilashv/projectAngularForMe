@@ -122,4 +122,15 @@ export class Main {
      }
      navContact = "Contact"
      showContact = "hideContact"
+
+     onClickContact() {
+      if(this.navContact == "Contact") {
+        this.navContact = "Contact."
+        this.showContact = "showContact"
+      } else {
+        this.navContact = "Contact"
+        this.showContact = "hideContact"
+      }
+
+     }
 }

@@ -3,9 +3,10 @@
 </div>
 
 <div class="navigation">
+          <li (click)="onClickWork()">{{showWork}}</li>
         <li (click)="onClickAboutMe()">{{navAboutMe}}</li>
-        <li>Contact</li>
-        <li (click)="onClickWork()">{{showWork}}</li>
+        <li (click)="onClickContact()">{{navContact}}</li>
+
 </div>
 <div class="productContainer">
     @for (item of product; track $index) {
@@ -24,11 +25,17 @@
     <img src="/images/1.jpg" alt="">
   </div>
   <div class="infoContainer">
-  <p>Hello my name is Ana.</p>
+  <p>My name is Ana.</p>
   <p>I'm NAIL ARTIST</p>
-  <p>Here you can see my work</p>
-  <p>How to contact me </p>
-  <p>Information about me</p>
+  <p>Experience : </p>
+  <p>Where you can find me : </p>
   </div>
+</div>
+<div [class]="showContact">
+ <a href=""><p><i class="fa-solid fa-phone"></i> 598 123 123 123</p></a>
+  <a href=""><p><i class="fa-brands fa-instagram"></i> Ana Usupashvili</p></a>
+  <a href=""><p><i class="fa-brands fa-facebook"></i> Ana Usupashvili</p></a>
+  <a href=""><p><i class="fa-brands fa-tiktok"></i> ANELIN </p></a>
+
 </div>
 
